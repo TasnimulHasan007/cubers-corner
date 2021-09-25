@@ -15,7 +15,13 @@ const Shop = () => {
   }, [])
   // add to cart handler
   const handleAddToCart = (person) => {
-    const newCart = [...cart, person]
+    // console.log(cart)
+    const newCart = [...cart]
+    if (!newCart.includes(person)) {
+      newCart.push(person)
+    } else {
+      return
+    }
     setCart(newCart)
   }
   // return

@@ -1,0 +1,92 @@
+[
+    {
+        "key": "2015DUYU01",
+        "name": "Yusheng Du",
+        "country": "China",
+        "gender": "Male",
+        "age": 22,
+        "salary": 29000,
+        "img": "https://i.cubing.com/upload/d/db8fa0cacd012db6c646c9f744c93157.jpeg"
+    },
+    {
+        "key": "2017XURU04",
+        "name": "Ruihang Xu",
+        "country": "China",
+        "gender": "Male",
+        "age": 12,
+        "salary": 15000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017XURU04/1613655989.jpg"
+    },
+    {
+        "key": "2016KOLA02",
+        "name": "Tymon Kolasiński",
+        "country": "Poland",
+        "gender": "Male",
+        "age": 18,
+        "salary": 24300,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016KOLA02/1629112778.png"
+    },
+    {
+        "key": "2009ZEMD01",
+        "name": "Feliks Zemdegs",
+        "country": "Australia",
+        "gender": "Male",
+        "age": 25,
+        "salary": 17400,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1526273746.jpg"
+    },
+    {
+        "key": "2012PONC02",
+        "name": "Patrick Ponce",
+        "country": "United States",
+        "gender": "Male",
+        "age": 21,
+        "salary": 18900,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PONC02/1497565600.png"
+    },
+    {
+        "key": "2012PARK03",
+        "name": "Max Park",
+        "country": "United States",
+        "gender": "Male",
+        "age": 19,
+        "salary": 43400,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PARK03/1631071192.jpg"
+    },
+    {
+        "key": "2016SHEL03",
+        "name": "Lukas Shelley",
+        "country": "Denmark",
+        "gender": "Male",
+        "age": 17,
+        "salary": 32900,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016SHEL03/1579077686.jpeg"
+    },
+    {
+        "key": "2014SEBA01",
+        "name": "Juliette Sébastien",
+        "country": "France",
+        "gender": "Female",
+        "age": 15,
+        "salary": 21700,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2014SEBA01/1630748932.jpg"
+    },
+    {
+        "key": "2010YIDA01",
+        "name": "Dana Yi",
+        "country": "United States",
+        "gender": "Female",
+        "age": 13,
+        "salary": 12500,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2010YIDA01/1518126109.png"
+    },
+    {
+        "key": "2017RHIV01",
+        "name": "Sakib Ibn Rashid Rhivu",
+        "country": "Bangladesh",
+        "gender": "Male",
+        "age": 29,
+        "salary": 37400,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017RHIV01/1547950582.jpeg"
+    }
+]

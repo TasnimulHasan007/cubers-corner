@@ -26,12 +26,12 @@
   top: -20px;
 }
 
-.summery p {
+p {
   font-size: 1.2rem;
   color: var(--white);
   line-height: 1.5;
 }
 
-.summery p span {
+p span {
   font-weight: 700;
 }

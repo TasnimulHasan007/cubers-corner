@@ -1,0 +1,25 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cart-item:hover {
+  background: #fff;
+}
+
+.cart-item p,
+.cart-item i {
+  color: var(--primary-color);
+  font-size: 1rem;
+  line-height: 2;
+  padding: 0.5rem 1rem;
+}
+
+.cart-item p {
+  font-weight: 500;
+}

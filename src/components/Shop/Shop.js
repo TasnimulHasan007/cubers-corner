@@ -7,6 +7,7 @@ const Shop = () => {
   // states
   const [persons, setPersons] = useState([])
   const [cart, setCart] = useState([])
+  const [error, setError] = useState(false)
   // load api
   useEffect(() => {
     fetch("./persons.JSON")
@@ -20,26 +21,34 @@ const Shop = () => {
     if (!newCart.includes(person)) {
       newCart.push(person)
     } else {
-      return
+      setError(!error)
+      setTimeout(() => {
+        setError(error)
+      }, 2000)
     }
     setCart(newCart)
   }
   // return
   return (
-    <div className="container shop">
-      {/* persons */}
-      <div className="person-container">
-        {persons.map((person) => (
-          <Person
-            key={person.key}
-            person={person}
-            handleAddToCart={handleAddToCart}
-          ></Person>
-        ))}
+    <div>
+      <div className="shop container">
+        {/* persons */}
+        <div className="person-container">
+          {persons.map((person) => (
+            <Person
+              key={person.key}
+              person={person}
+              handleAddToCart={handleAddToCart}
+            ></Person>
+          ))}
+        </div>
+        {/* cart */}
+        <div className="cart-container">
+          <Cart cart={cart}></Cart>
+        </div>
       </div>
-      {/* cart */}
-      <div className="cart-container">
-        <Cart cart={cart}></Cart>
+      <div className="error" id={error ? "show" : null}>
+        <p>Cuber already exists in the cart</p>
       </div>
     </div>
   )

@@ -2,6 +2,7 @@
   position: sticky;
   top: 70px;
   background: var(--primary-color);
+  box-shadow: 0 3px 15px rgb(0 0 0 / 15%);
 }
 /* icon */
 .icon {
@@ -14,7 +15,7 @@
   color: var(--white);
   background: var(--primary-color);
   border: 0.25rem solid var(--white);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
   transform: translateY(-50%);
 }
 

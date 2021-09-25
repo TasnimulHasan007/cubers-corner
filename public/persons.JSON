@@ -6,7 +6,9 @@
         "gender": "Male",
         "age": 22,
         "salary": 29000,
-        "img": "https://i.cubing.com/upload/d/db8fa0cacd012db6c646c9f744c93157.jpeg"
+        "img": "https://i.cubing.com/upload/d/db8fa0cacd012db6c646c9f744c93157.jpeg",
+        "average": 6.64,
+        "single": 3.47
     },
     {
         "key": "2017XURU04",
@@ -14,8 +16,10 @@
         "country": "China",
         "gender": "Male",
         "age": 12,
-        "salary": 15000,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017XURU04/1613655989.jpg"
+        "salary": 150000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017XURU04/1613655989.jpg",
+        "average": 5.48,
+        "single": 4.06
     },
     {
         "key": "2016KOLA02",
@@ -23,8 +27,10 @@
         "country": "Poland",
         "gender": "Male",
         "age": 18,
-        "salary": 24300,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016KOLA02/1629112778.png"
+        "salary": 243000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016KOLA02/1629112778.png",
+        "average": 5.54,
+        "single": 4.11
     },
     {
         "key": "2009ZEMD01",
@@ -32,8 +38,10 @@
         "country": "Australia",
         "gender": "Male",
         "age": 25,
-        "salary": 17400,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1526273746.jpg"
+        "salary": 174000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2009ZEMD01/1526273746.jpg",
+        "average": 5.53,
+        "single": 4.16
     },
     {
         "key": "2012PONC02",
@@ -41,8 +49,10 @@
         "country": "United States",
         "gender": "Male",
         "age": 21,
-        "salary": 18900,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PONC02/1497565600.png"
+        "salary": 189000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PONC02/1497565600.png",
+        "average": 5.83,
+        "single": 4.24
     },
     {
         "key": "2012PARK03",
@@ -50,8 +60,10 @@
         "country": "United States",
         "gender": "Male",
         "age": 19,
-        "salary": 43400,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PARK03/1631071192.jpg"
+        "salary": 434000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2012PARK03/1631071192.jpg",
+        "average": 5.59,
+        "single": 4.40
     },
     {
         "key": "2016SHEL03",
@@ -59,8 +71,10 @@
         "country": "Denmark",
         "gender": "Male",
         "age": 17,
-        "salary": 32900,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016SHEL03/1579077686.jpeg"
+        "salary": 329000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2016SHEL03/1579077686.jpeg",
+        "average": 6.31,
+        "single": 4.42
     },
     {
         "key": "2014SEBA01",
@@ -68,8 +82,10 @@
         "country": "France",
         "gender": "Female",
         "age": 15,
-        "salary": 21700,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2014SEBA01/1630748932.jpg"
+        "salary": 217000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2014SEBA01/1630748932.jpg",
+        "average": 6.40,
+        "single": 4.44
     },
     {
         "key": "2010YIDA01",
@@ -77,8 +93,10 @@
         "country": "United States",
         "gender": "Female",
         "age": 13,
-        "salary": 12500,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2010YIDA01/1518126109.png"
+        "salary": 125000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2010YIDA01/1518126109.png",
+        "average": 7.52,
+        "single": 5.37
     },
     {
         "key": "2017RHIV01",
@@ -86,7 +104,31 @@
         "country": "Bangladesh",
         "gender": "Male",
         "age": 29,
-        "salary": 37400,
-        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017RHIV01/1547950582.jpeg"
+        "salary": 374000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2017RHIV01/1547950582.jpeg",
+        "average": 8.57,
+        "single": 7.18
+    },
+    {
+        "key": "2015CALD02",
+        "name": "Kymberlyn Calderon",
+        "country": "United States",
+        "gender": "Female",
+        "age": 18,
+        "salary": 198000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2015CALD02/1568519895.jpg",
+        "average": 7.53	,
+        "single": 5.20	
+    },
+    {
+        "key": "2013KATO01",
+        "name": "Eva Kato",
+        "country": "United States",
+        "gender": "Female",
+        "age": 19,
+        "salary": 271000,
+        "img": "https://www.worldcubeassociation.org/uploads/user/avatar/2013KATO01/1628168377.jpeg",
+        "average": 8.06,
+        "single": 5.46	
     }
 ]

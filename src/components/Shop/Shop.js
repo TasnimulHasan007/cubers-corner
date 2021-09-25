@@ -24,7 +24,7 @@ const Shop = () => {
       setError(!error)
       setTimeout(() => {
         setError(error)
-      }, 2000)
+      }, 1500)
     }
     setCart(newCart)
   }

@@ -3,7 +3,8 @@ import "./Person.css"
 
 const Person = (props) => {
   // data deconstruction
-  const { name, country, gender, age, salary, img } = props.person
+  const { name, country, gender, age, average, single, salary, img } =
+    props.person
   return (
     <div className="person">
       <div className="intro">
@@ -23,6 +24,14 @@ const Person = (props) => {
         <p>
           <span>Age : </span>
           {age}
+        </p>
+        <p>
+          <span>Average : </span>
+          {average} sec.
+        </p>
+        <p>
+          <span>Single : </span>
+          {single} sec.
         </p>
         <p>
           <span>Salary : </span>${salary}

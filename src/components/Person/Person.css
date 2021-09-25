@@ -1,5 +1,5 @@
 .person {
-  box-shadow: 0 3px 30px rgb(0 0 0 / 6%);
+  box-shadow: 0 3px 15px rgb(0 0 0 / 15%);
 }
 /* intro */
 .intro {
@@ -19,7 +19,7 @@
   height: 80px;
   border-radius: 50%;
   outline: 0.25rem solid #fff;
-  box-shadow: 0 2px 10px rgb(0 0 0 / 6%);
+  box-shadow: -5px -5px 15px rgb(0 0 0 / 15%);
 }
 
 .intro .name {

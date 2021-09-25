@@ -24,7 +24,7 @@
   font-weight: 700;
   padding-block: 0.25rem;
   background: var(--primary-color);
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 
 #show {

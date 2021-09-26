@@ -37,7 +37,7 @@ const Person = (props) => {
           <span>Salary : </span>${salary}
         </p>
         <button
-          className="add-to-cart"
+          className="add-to-cart main-btn"
           onClick={() => props.handleAddToCart(props.person)}
         >
           <i className="fas fa-cart-plus"></i> Add To Cart

@@ -11,16 +11,15 @@
 
 /* scroll bar */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--white);
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--primary-color);
-  border-radius: 15px;
 }
 
 /* resets */
@@ -30,8 +29,13 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  overflow: overlay;
 }
 
 /* utilities */
@@ -39,4 +43,21 @@ body {
   width: min(100%, 1500px);
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.main-btn {
+  font-size: 1rem;
+  color: var(--white);
+  background: var(--primary-color);
+  font-weight: 700;
+  border: 0.15rem solid var(--primary-color);
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.main-btn:hover {
+  background: transparent;
+  color: var(--primary-color);
 }

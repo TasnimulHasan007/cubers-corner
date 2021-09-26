@@ -25,7 +25,11 @@ const Cart = (props) => {
           {cart.length}
         </p>
         {cartItem.map((item) => (
-          <CartItem cart={item} key={item.key}></CartItem>
+          <CartItem
+            handleClose={props.handleClose}
+            cart={item}
+            key={item.key}
+          ></CartItem>
         ))}
         <p>
           <span>

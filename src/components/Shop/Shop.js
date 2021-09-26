@@ -28,6 +28,21 @@ const Shop = () => {
     }
     setCart(newCart)
   }
+  // handle close
+  const handleClose = (item) => {
+    const newCart = [...cart]
+
+    console.log(newCart)
+
+    const index = newCart.indexOf(item)
+    if (index > -1) {
+      newCart.splice(index, 1)
+    }
+
+    console.log(newCart)
+    setCart(newCart)
+    console.log(cart)
+  }
   // return
   return (
     <div>
@@ -35,7 +50,7 @@ const Shop = () => {
       <div id="#shop" className="shop container">
         {/* cart */}
         <div className="cart-container">
-          <Cart cart={cart}></Cart>
+          <Cart cart={cart} handleClose={handleClose}></Cart>
         </div>
         {/* persons */}
         <div className="person-container">

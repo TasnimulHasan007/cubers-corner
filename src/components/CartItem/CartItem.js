@@ -4,7 +4,12 @@ import "./CartItem.css"
 const CartItem = (props) => {
   const { name, img } = props.cart
   return (
-    <div className="cart-item">
+    <div
+      onClick={() => {
+        props.handleClose(props.cart)
+      }}
+      className="cart-item"
+    >
       <span className="name-container">
         <img src={img} alt="" />
         <p>{name}</p>

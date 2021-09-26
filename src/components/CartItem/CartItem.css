@@ -2,14 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--white);
   margin: 0.5rem;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.cart-item:hover {
   background: #fff;
+  background: var(--white);
 }
 
 .name-container {
@@ -28,11 +23,21 @@
 .cart-item p,
 .cart-item i {
   color: var(--primary-color);
-  font-size: 1rem;
   line-height: 2;
-  padding: 0.5rem 1rem 0.5rem 0;
+  margin: 0.5rem 1rem 0.5rem 0;
 }
 
 .cart-item p {
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.cart-item i {
+  font-size: 1.4rem;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.cart-item i:hover {
+  opacity: 0.8;
 }

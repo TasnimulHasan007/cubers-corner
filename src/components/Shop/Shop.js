@@ -43,6 +43,13 @@ const Shop = () => {
     setCart(newCart)
     console.log(cart)
   }
+  // clear cart
+  const handleClearCart = () => {
+    const newcart = []
+    if (cart.length) {
+      setCart(newcart)
+    }
+  }
   // return
   return (
     <div>
@@ -50,7 +57,11 @@ const Shop = () => {
       <div id="#shop" className="shop container">
         {/* cart */}
         <div className="cart-container">
-          <Cart cart={cart} handleClose={handleClose}></Cart>
+          <Cart
+            cart={cart}
+            handleClose={handleClose}
+            handleClearCart={handleClearCart}
+          ></Cart>
         </div>
         {/* persons */}
         <div className="person-container">

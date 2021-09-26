@@ -12,10 +12,25 @@ const Cart = (props) => {
   }
   const cartItem = [...cart]
 
+  // handle cart icon hover
+  const mouseOver = (e) => {
+    e.target.classList.remove("fa-shopping-cart")
+    e.target.classList.add("fa-times")
+  }
+  const mouseOut = (e) => {
+    e.target.classList.remove("fa-times")
+    e.target.classList.add("fa-shopping-cart")
+  }
+
   return (
     <div className="cart">
       <div className="icon">
-        <i className="fas fa-shopping-cart fa-2x"></i>
+        <i
+          className="fas fa-shopping-cart fa-2x"
+          onMouseOver={mouseOver}
+          onMouseOut={mouseOut}
+          onClick={props.handleClearCart}
+        ></i>
       </div>
       <div className="summery">
         <p>

@@ -32,16 +32,11 @@ const Shop = () => {
   const handleClose = (item) => {
     const newCart = [...cart]
 
-    console.log(newCart)
-
     const index = newCart.indexOf(item)
     if (index > -1) {
       newCart.splice(index, 1)
     }
-
-    console.log(newCart)
     setCart(newCart)
-    console.log(cart)
   }
   // clear cart
   const handleClearCart = () => {

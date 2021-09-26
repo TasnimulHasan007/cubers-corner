@@ -14,8 +14,8 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setPersons(data))
   }, [])
-  // add to cart handler
-  const handleAddToCart = (person) => {
+  // hire button handler
+  const handleHireBtn = (person) => {
     // console.log(cart)
     const newCart = [...cart]
     if (!newCart.includes(person)) {
@@ -43,7 +43,7 @@ const Shop = () => {
             <Person
               key={person.key}
               person={person}
-              handleAddToCart={handleAddToCart}
+              handleHireBtn={handleHireBtn}
             ></Person>
           ))}
         </div>

@@ -12,12 +12,25 @@
   background: #fff;
 }
 
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0.5rem 1rem;
+}
+
 .cart-item p,
 .cart-item i {
   color: var(--primary-color);
   font-size: 1rem;
   line-height: 2;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 0;
 }
 
 .cart-item p {

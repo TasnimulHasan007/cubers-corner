@@ -31,7 +31,12 @@ const Shop = () => {
   // return
   return (
     <div>
+      {/* shop container start */}
       <div id="#shop" className="shop container">
+        {/* cart */}
+        <div className="cart-container">
+          <Cart cart={cart}></Cart>
+        </div>
         {/* persons */}
         <div className="person-container">
           {persons.map((person) => (
@@ -42,11 +47,8 @@ const Shop = () => {
             ></Person>
           ))}
         </div>
-        {/* cart */}
-        <div className="cart-container">
-          <Cart cart={cart}></Cart>
-        </div>
       </div>
+      {/* shop contianer end */}
       <div className="error" id={error ? "show" : null}>
         <p>Cuber already exists in the cart</p>
       </div>

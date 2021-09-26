@@ -1,20 +1,15 @@
 .shop {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 3fr;
   gap: 20px;
   position: relative;
-  padding-top: 40px;
+  padding-block: 80px;
 }
 
 .person-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 40px 0;
-}
-
-.cart-container {
-  padding: 40px 0;
 }
 
 .error {
@@ -31,4 +26,29 @@
 
 #show {
   top: 0;
+}
+
+/* Media queries */
+@media (max-width: 1080px) {
+  .shop {
+    grid-template-columns: 1fr 2fr;
+  }
+  .person-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 915px) {
+  .shop {
+    grid-template-columns: 1fr 1fr;
+  }
+  .person-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .shop {
+    grid-template-columns: 1fr;
+  }
 }

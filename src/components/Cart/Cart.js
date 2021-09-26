@@ -19,13 +19,19 @@ const Cart = (props) => {
       </div>
       <div className="summery">
         <p>
-          <span>Persons Added : </span> {cart.length}
+          <span>
+            <i className="fas fa-user"></i> Persons Added :{" "}
+          </span>{" "}
+          {cart.length}
         </p>
         {cartItem.map((item) => (
           <CartItem cart={item} key={item.key}></CartItem>
         ))}
         <p>
-          <span>Total Cost : </span> ${parseInt(totalCost)}
+          <span>
+            <i className="fas fa-dollar-sign"></i> Total Cost :{" "}
+          </span>{" "}
+          ${parseInt(totalCost)}
         </p>
       </div>
     </div>

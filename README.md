@@ -8,4 +8,4 @@ This site can be visited [here](https://react-assignment-tasnimul.netlify.app).
 - On the left of the shop section, world's top cubers are listed. Clicking on the "Hire Now" button will select the cuber for the web series and his salary will be shown in the cart.
 - Each cuber can be selected once only.
 - Clicking on the close icon in a cart item will remove the item from the cart.
-- Clicking on the top icon on the cart will clear the cart
+- Clicking on the top icon on the cart will clear the cart.

@@ -23,13 +23,13 @@
 .cart-item p,
 .cart-item i {
   color: var(--primary-color);
-  line-height: 2;
   margin: 0.5rem 1rem 0.5rem 0;
 }
 
 .cart-item p {
   font-size: 1rem;
   font-weight: 500;
+  text-align: left;
 }
 
 .cart-item i {
